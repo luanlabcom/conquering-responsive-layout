@@ -66,6 +66,7 @@ TYPOGRAPHY
 COMPONENTS
 *****************/
 .btn {
+  display: inline-block;
   background-color: hsla(184, 68%, 53%, 1);
   color: hsla(184, 73%, 10%, 1);
   text-transform: uppercase;
