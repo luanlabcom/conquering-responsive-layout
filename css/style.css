@@ -83,3 +83,10 @@ COMPONENTS
 .btn:focus {
   opacity: 0.75;
 }
+
+/****************
+UTILITIES
+*****************/
+.flex {
+  display: flex;
+}
