@@ -26,3 +26,22 @@ p {
   margin: 0;
   padding: 0;
 }
+
+/****************
+LAYOUT
+*****************/
+.hero {
+  background-color: hsla(184, 73%, 10%, 1);
+  padding: 9.25em 0;
+}
+
+.hero__text {
+  color: hsla(360, 100%, 100%, 1);
+  width: 60%;
+}
+
+.container {
+  width: 83%;
+  max-width: 74.75em;
+  margin: 0 auto;
+}
