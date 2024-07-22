@@ -61,3 +61,23 @@ TYPOGRAPHY
   color: hsla(360, 100%, 100%, 0.85);
   margin: 1.5em 0 4em 0;
 }
+
+/****************
+COMPONENTS
+*****************/
+.btn {
+  background-color: hsla(184, 68%, 53%, 1);
+  color: hsla(184, 73%, 10%, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  border-radius: 100px;
+  padding: 1em 3em;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
