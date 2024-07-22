@@ -54,6 +54,7 @@ TYPOGRAPHY
 *****************/
 .hero__text h1 {
   font-size: 3rem;
+  font-weight: 900;
 }
 
 .hero__text p {
