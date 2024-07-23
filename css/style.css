@@ -88,6 +88,25 @@ TYPOGRAPHY
   margin: 1.5em 0 4em 0;
 }
 
+main p {
+  margin-top: 1.25em;
+  line-height: 1.5em;
+}
+
+.main__content h2 {
+  font-weight: 900;
+  font-size: 2.25rem;
+  color: hsla(184, 71%, 26%, 1);
+}
+
+.main__sidebar {
+  color: hsla(360, 100%, 100%, 1);
+}
+
+.main__sidebar h2 {
+  font-size: 2rem;
+}
+
 /****************
 COMPONENTS
 *****************/
