@@ -10,6 +10,8 @@ GENERIC STYLES
 
 html {
   box-sizing: border-box;
+  --col-1: 63%;
+  --col-2: 34%;
 }
 
 body {
@@ -44,11 +46,11 @@ LAYOUT
 
 .hero__text {
   color: hsla(360, 100%, 100%, 1);
-  width: 60%;
+  width: var(--col-1);
 }
 
 .hero__img {
-  width: 30%;
+  width: var(--col-2);
 }
 
 .container {
@@ -63,12 +65,14 @@ main {
 
 .main__content {
   padding: 2em 0;
+  width: var(--col-1);
 }
 
 .main__sidebar {
   background-color: hsla(184, 71%, 26%, 1);
   padding: 2em 2em;
   text-align: center;
+  width: var(--col-2);
 }
 
 .main__sidebar__item + .main__sidebar__item {
