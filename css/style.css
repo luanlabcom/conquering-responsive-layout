@@ -66,6 +66,7 @@ main {
 }
 
 .main__sidebar {
+  background-color: hsla(184, 71%, 26%, 1);
   padding: 2em 2em;
   text-align: center;
 }
