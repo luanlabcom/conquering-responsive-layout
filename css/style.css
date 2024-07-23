@@ -96,6 +96,7 @@ TYPOGRAPHY
 main p {
   margin-top: 1.25em;
   line-height: 1.5em;
+  text-wrap: balance;
 }
 
 .main__content h2 {
