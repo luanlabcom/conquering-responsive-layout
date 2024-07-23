@@ -43,6 +43,10 @@ LAYOUT
   width: 60%;
 }
 
+.hero__img {
+  width: 30%;
+}
+
 .container {
   width: 83%;
   max-width: 74.75em;
