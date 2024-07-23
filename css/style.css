@@ -57,6 +57,23 @@ LAYOUT
   margin: 0 auto;
 }
 
+main {
+  padding: 3em 0;
+}
+
+.main__content {
+  padding: 2em 0;
+}
+
+.main__sidebar {
+  padding: 2em 2em;
+  text-align: center;
+}
+
+.main__sidebar__item + .main__sidebar__item {
+  padding-top: 3em;
+}
+
 /****************
 TYPOGRAPHY
 *****************/
