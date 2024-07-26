@@ -50,6 +50,11 @@ header {
   list-style: none;
 }
 
+.nav__item {
+  background-color: hsla(0, 0%, 50%, 1);
+  border: 1px solid red;
+}
+
 .nav__item + .nav__item {
   margin-left: 1em;
 }
