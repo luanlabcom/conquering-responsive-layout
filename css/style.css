@@ -68,15 +68,15 @@ main {
   width: var(--col-1);
 }
 
-.main__sidebar {
+.sidebar {
   background-color: hsla(184, 71%, 26%, 1);
   padding: 2em 2em;
   text-align: center;
   width: var(--col-2);
 }
 
-.main__sidebar__item + .main__sidebar__item {
-  padding-top: 3em;
+.sidebar > h2:not(.sidebar-title:first-of-type) {
+  margin-top: 3em;
 }
 
 /****************
