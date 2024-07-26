@@ -60,6 +60,10 @@ header {
   text-transform: uppercase;
 }
 
+.nav__item--push-right {
+  margin-left: auto;
+}
+
 .nav__link--button {
   background-color: hsla(360, 100%, 100%, 1);
   color: hsla(184, 71%, 26%, 1);
