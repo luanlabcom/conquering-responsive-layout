@@ -63,7 +63,7 @@ main {
   padding: 3em 0;
 }
 
-.main__content {
+.primary-content {
   padding: 2em 0;
   width: var(--col-1);
 }
@@ -99,7 +99,7 @@ main p {
   text-wrap: balance;
 }
 
-.main__content h2 {
+.primary-content h2 {
   font-weight: 900;
   font-size: 2.25rem;
   color: hsla(184, 71%, 26%, 1);
