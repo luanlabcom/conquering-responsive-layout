@@ -39,6 +39,38 @@ p {
 /****************
 LAYOUT
 *****************/
+header {
+  background-color: hsla(184, 71%, 26%, 1);
+  padding: 1em 0;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__item {
+  margin-right: 1em;
+}
+
+.nav__link {
+  color: hsla(360, 100%, 100%, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background-color: hsla(360, 100%, 100%, 1);
+  color: hsla(184, 71%, 26%, 1);
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
+
 .hero {
   background-color: hsla(184, 73%, 10%, 1);
   padding: 9.25em 0;
