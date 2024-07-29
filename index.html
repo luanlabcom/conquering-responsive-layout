@@ -2,19 +2,97 @@
 <html>
 <head>
     <title>Conquering Responsive Layouts ft. React</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        body {            
+            font-size: 21px;           
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 56.95em;
+            margin: 0 auto;
+        }
+
+        .hero {
+            background-color: #23424A;
+            padding: 7em;
+            color: white;
+        }
+
+        .hero__text {
+            width: 62%;
+        }
+
+        .hero__text h1 {
+            margin-top: 0;
+            font-weight: 900;
+            font-size: 3rem;
+        }
+
+        .hero__text p {
+            line-height: 1.5em;
+            color: hsla(0, 0%, 100%, 0.85);
+            margin-bottom: 3em;
+        }
+
+        .hero__img {
+            width: 32%;
+            align-self: flex-start;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #38CFD9;
+            color: #072A2D;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 0.75em 2.3em;
+            border-radius: 10em;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            opacity: 0.85;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="app"></div>
 
-    <script type="text/javascript">
-        const root = document.getElementById("root")
-
-        const header = document.createElement("h1")
-        const text = "Responsive layouts don’t have to be a struggle"
-        const headerTextContent = document.createTextNode(text)
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx" src="index.js">
         
-        header.appendChild(headerTextContent)
-        root.appendChild(header)
     </script>
 </body>
 </html>
